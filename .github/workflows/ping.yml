@@ -1,6 +1,7 @@
 name: Keep Supabase Awake
 
 on:
+  workflow_dispatch:  # ← 手動実行を許可
   schedule:
     - cron: '0 5 * * *'  # 毎日5:00 UTCに実行
 
