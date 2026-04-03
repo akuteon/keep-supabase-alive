@@ -1,6 +1,5 @@
 name: Keep Supabase Awake
 
-
 on:
   workflow_dispatch:  # ← 手動実行を許可
   schedule:
